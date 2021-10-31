@@ -1,10 +1,7 @@
 import React from 'react';
-import { AppBar, Toolbar, IconButton, Badge, MenuItem, Menu, Typography } from '@material-ui/core';
-import {BrowserRouter as Router, Switch, Route,Link} from 'react-router-dom';
+import {IconButton, Badge} from '@material-ui/core';
 import './Navbar.css';
-import TextField from '@material-ui/core/TextField';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
-import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 import CallIcon from '@material-ui/icons/Call';
 import { ShoppingCart } from '@material-ui/icons';
 import {useHistory} from 'react-router-dom'
@@ -14,7 +11,7 @@ const Navbar = () => {
    const history = useHistory()
 
    const loginredirect = () => {
-       history.push('/sighnup')
+       history.push('/loginpage')
    }
     return (
         <div>
@@ -65,11 +62,6 @@ autoFocus/>
                             </div>
                             </li>
                         </ul>
-                        <li class="d-flex">
-                            <IconButton area-label="AccountCircle" color="inherit">
-                                <ShoppingBasketIcon />
-                            </IconButton>
-                        </li>
                         <li class="d-flex">
                             <IconButton area-label="Show cart Items" color="inherit">
                                 <Badge badgeContent={2} color="secondary">

@@ -4,7 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import Form2 from './components/Login/Form2'
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import Form from './components/Login/Form'
+
 const App = () => {
 
     return (
@@ -14,9 +14,7 @@ const App = () => {
                           
                 <div>
                     <Switch>
-                        <Route path='/sighnup' exact component={Form}>
-                            
-                        </Route>                        
+                                             
                         <Route path='/' exact component={Home}>
                           
                         </Route>

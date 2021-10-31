@@ -54,7 +54,7 @@
   }
   
   .form-content-left {
-    background: rgba(22, 21, 21, 0.5);
+    background: rgba(241, 145, 100, 0.3);
     border-radius: 10px 0 0 10px;
     position: relative;
   }
@@ -95,7 +95,7 @@
   .form-content-right {
     border-radius: 0 10px 10px 0;
     position: relative;
-    background: rgba(22, 21, 21, 0.5);
+    background: rgba(241, 145, 100, 0.3);
   }
   
   .form {
@@ -132,8 +132,9 @@
   
   .form-label {
     display: inline-block;
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin-bottom: 6px;
+    margin-left: 1rem;
     color: #fff;
   }
   
@@ -141,7 +142,7 @@
     display: block;
     padding-left: 10px;
     outline: none;
-    border-radius: 2px;
+    border-radius: 25px;
     height: 40px;
     width: 100%;
     border: none;
@@ -156,7 +157,7 @@
     width: 80%;
     height: 50px;
     margin-top: 10px;
-    border-radius: 2px;
+    border-radius: 25px;
     background: linear-gradient(
       90deg,
       rgb(255, 161, 39) 0%,
