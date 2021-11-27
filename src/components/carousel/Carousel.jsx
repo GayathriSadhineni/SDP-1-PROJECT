@@ -1,7 +1,7 @@
 import React from 'react';
-import pic1 from "/Users/acer/sdp/src/Assets/Pic1.jpg";
-import pic2 from "/Users/acer/sdp/src/Assets/Pic2.jpg";
-import pic7 from "/Users/acer/sdp/src/Assets/Pic7.jpg";
+import pic1 from '../../Assets/Pic1.jpg';
+import pic2 from '../../Assets/Pic2.jpg';
+import pic3 from '../../Assets/Pic7.jpg';
 import './Carousel.css';
 const Carousel = () => {
     return (
@@ -14,23 +14,23 @@ const Carousel = () => {
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src={pic1} class="d-block w-100" alt="Living Avenue" />     
-                                          
+                        <img src={pic1} class="d-block w-100" alt="Living Avenue" />
+
                     </div>
-                    
+
                     <div class="carousel-item">
                         <img src={pic2} class="d-block w-100" alt="..." />
-                        
-                    </div>                    
-                   
+
+                    </div>
+
                     <div class="carousel-item">
-                        <img src={pic7} class="d-block w-100" alt="..." />
-                        
-                    </div>                    
+                        <img src={pic3} class="d-block w-100" alt="..." />
+
+                    </div>
                     <div class="carousel-caption">
-                            <p>New Arrivals</p>
-                            <p>Hurry Up!!</p>
-                        </div> 
+                        <p>New Arrivals</p>
+                        <p>Hurry Up!!</p>
+                    </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
