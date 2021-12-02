@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState, useCallback} from 'react';
 import {IconButton, Badge} from '@material-ui/core';
 import './Navbar.css';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
@@ -6,13 +6,20 @@ import CallIcon from '@material-ui/icons/Call';
 import { ShoppingCart } from '@material-ui/icons';
 import {useHistory} from 'react-router-dom'
 import { ReactSearchAutocomplete } from 'react-search-autocomplete'
-
+import { useModal } from 'react-hooks-use-modal';
 const Navbar = () => {
    const history = useHistory()
 
    const loginredirect = () => {
        history.push('/loginpage')
    }
+   const cartredirect = () => {
+       history.push('/yourcart')
+   }
+   const [Modal, open] = useModal('root', {
+    preventScroll: true,
+    closeOnOverlayClick: true
+  });
     return (
         <div>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -65,7 +72,7 @@ autoFocus/>
                         <li class="d-flex">
                             <IconButton area-label="Show cart Items" color="inherit">
                                 <Badge badgeContent={2} color="secondary">
-                                    <ShoppingCart />
+                                    <ShoppingCart onClick={cartredirect}/>
                                 </Badge>
                             </IconButton>
                         </li>
@@ -76,9 +83,16 @@ autoFocus/>
                         </li>
                         <li class="d-flex">
                             <IconButton area-label="AccountCircle" color="inherit">
-                                <CallIcon />
+                                <CallIcon onClick={open}/>
                             </IconButton>
                         </li>
+                        <Modal>
+        <div className="popup">
+          <h1 className="contact">Contact Us</h1>
+          <p className="mailid">Mail: helpdesk@rentify.com</p>
+          <p className="mailid">24*7 Helpline: 7328277335</p>
+        </div>
+      </Modal>
                     </div>
                 </div>
             </nav>

@@ -35,6 +35,36 @@ function Card2() {
           owners="2"
         />
       </div>
+      <div id="wrapper" className="column">
+        <Prod
+          title="FRIHETEN"
+          information="3-seat sofa-bed, Hyllie dark grey.    You can quickly transform this sofa into a spacious bed. And the generous storage space for bed linens under the seat makes things even easier."
+          price="MRP Rs.500 per month"
+          buy="Buy Now"
+          path="https://www.ikea.com/in/en/images/products/friheten-3-seat-sofa-bed-hyllie-dark-grey__0690265_pe723191_s5.jpg?f=s"
+          width="225 cm (88 5/8 ')"
+          depth="105 cm (41 3/8 ')"
+          height="83 cm (32 5/8 ')"
+          weight="60 kg (229 oz)"
+          material="Fabric"
+          owners="2"
+        />
+      </div>
+      <div id="wrapper" className="column">
+        <Prod
+          title="FRIHETEN"
+          information="3-seat sofa-bed, Hyllie dark grey.    You can quickly transform this sofa into a spacious bed. And the generous storage space for bed linens under the seat makes things even easier."
+          price="MRP Rs.500 per month"
+          buy="Buy Now"
+          path="https://www.ikea.com/in/en/images/products/friheten-3-seat-sofa-bed-hyllie-dark-grey__0690265_pe723191_s5.jpg?f=s"
+          width="225 cm (88 5/8 ')"
+          depth="105 cm (41 3/8 ')"
+          height="83 cm (32 5/8 ')"
+          weight="60 kg (229 oz)"
+          material="Fabric"
+          owners="2"
+        />
+      </div>
     </div>
   );
 }
