@@ -1,6 +1,6 @@
 import React,{useState, useCallback} from 'react';
 import {IconButton, Badge} from '@material-ui/core';
-import './Navbar.css';
+import './Navbar2.css';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import CallIcon from '@material-ui/icons/Call';
 import { ShoppingCart } from '@material-ui/icons';
@@ -31,7 +31,7 @@ const Navbar = () => {
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <a class="nav-link active" aria-current="page" href='/' >Home</a>  
+                        <a class="nav-link active" aria-current="page" href='/user' >Home</a>  
                             <li class="nav-item dropdown">
                                 
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -78,15 +78,11 @@ autoFocus/>
                         </li>
                         <li class="d-flex">
                             <Link to="/loginpage">
-                                Login   
+                                Log out  
                                 
                             </Link>
                         </li>
-                        <li class="d-flex">
-                            <Link to="/sign-up">
-                            Sighn up
-                            </Link>
-                        </li>
+                        
                         <li class="d-flex">
                             <IconButton area-label="AccountCircle" color="inherit">
                                 <CallIcon onClick={open}/>
