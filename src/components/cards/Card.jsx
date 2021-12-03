@@ -38,7 +38,7 @@ function Card2() {
       <div id="wrapper" className="column">
         <Prod
           title="HUAGA"
-          information="With storage boxes under an upholstered bed frame, you get both a soft bed and generous storage. The grey two-toned fabric, rounded headboard and piping create a classic look to enjoy for many years."
+          information="With storage boxes under an upholstered bed frame, you get both a soft bed and generous storage. The grey two-toned fabric, a classic look to enjoy for many years."
           price="MRP Rs.400 per month"
           buy="Rent Now"
           path="https://www.ikea.com/in/en/images/products/hauga-upholstered-bed-2-storage-boxes-vissle-grey__0945812_pe797796_s5.jpg?f=xl"
