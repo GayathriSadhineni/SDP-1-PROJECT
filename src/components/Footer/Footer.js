@@ -45,18 +45,17 @@ function Footer() {
                 </div>
                 <div className='footer-link-wrapper'>
                     <div class='footer-link-items'>
-                        <h2>Videos</h2>
-                        <Link to='/'>Submit Video</Link>
-                        <Link to='/'>Ambassadors</Link>
-                        <Link to='/'>Agency</Link>
-                        <Link to='/'>Influencer</Link>
+                        <h2>Handles</h2>
+                        <a href='https://www.linkedin.com/in/vishnupriyagandi/'>Ambassadors</a>
+                        <a href='https://www.linkedin.com/in/sasidhar-reddy-0b2446178/'>Public Relations Manger</a>
+                        <a href='https://www.linkedin.com/in/gayathri-sadhineni/'>Influencer</a>
                     </div>
                     <div class='footer-link-items'>
                         <h2>Social Media</h2>
-                        <Link to='/'>Instagram</Link>
-                        <Link to='/'>Facebook</Link>
-                        <Link to='/'>Youtube</Link>
-                        <Link to='/'>Twitter</Link>
+                        <a href='https://www.instagram.com/sasidhar._.reddy/'>Instagram</a>
+                        <a href='https://www.facebook.com/SasidharReddy11/'>Facebook</a>
+                        <a href='https://www.youtube.com/c/Worksaftercollege'>Youtube</a>
+                        <a href='https://www.linkedin.com/in/sasidhar-reddy-0b2446178/'>LinkedIn</a>
                     </div>
                 </div>
             </div>
