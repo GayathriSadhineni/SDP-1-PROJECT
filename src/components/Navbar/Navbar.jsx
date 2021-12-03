@@ -83,7 +83,7 @@ autoFocus/>
                         </li>
                         <li class="d-flex">
                             <Link to="/sign-up">
-                            Sighn up
+                            Register
                             </Link>
                         </li>
                         <li class="d-flex">

@@ -1,4 +1,4 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200&display=swap");
 
 .register1 {
     width: 400px;
@@ -27,8 +27,8 @@
 }
 
 .register1 > .button {
-    background: #1877f2;
-    border: 1px solid #1877f2;
+    background: #ff9b4a;
+    border: 1px solid #ff9b4a;
     color: #fff;
     font-size: 1.25rem;
     padding: 0.5rem;

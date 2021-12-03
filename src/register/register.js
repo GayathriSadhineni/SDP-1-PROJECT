@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import "./register.css"
 import axios from "axios"
 import { useHistory } from "react-router-dom"
+import loginbackground from '../Assets/loginbackground.jpeg'
 
 const Register = () => {
 
@@ -39,8 +40,8 @@ const Register = () => {
     return (
         <div className='hero-container4'>
 
-        <video className='video3'src="/videos/video-6.mp4" autoPlay loop muted/>
-       <div>
+        <img className='backgroundimage'src={loginbackground}/>
+        <div>
         <div className="register1">
             {console.log("User", user)}
             <h1>Hey nice to meet You!</h1>

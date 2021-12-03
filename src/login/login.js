@@ -2,7 +2,7 @@ import React, {useState} from "react"
 import "./login.css"
 import axios from "axios"
 import { useHistory } from "react-router-dom"
-
+import loginbackground from '../Assets/loginbackground.jpeg'
 
 const Login = ({setLoginUser}) => {
 
@@ -34,7 +34,7 @@ const Login = ({setLoginUser}) => {
 
         <div className='hero-container4'>
 
-      <video className='video3'src="/videos/video-6.mp4" autoPlay loop muted/>
+      <img className='backgroundimage'src={loginbackground}/>
      <div>
         <div className="login1">
             <h1>Hey how are you!</h1>
