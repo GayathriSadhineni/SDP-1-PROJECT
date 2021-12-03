@@ -10,19 +10,19 @@ const Navbar = () => {
    const history = useHistory()
 
    const sofaredirect = () => {
-       history.push('/sofa-and-armchair')
+       history.push('/loginpage')
    }
    const bedredirect = () => {
-    history.push('/beds')
+    history.push('/loginpage')
    }
    const chairredirect = () => {
-    history.push('/chairs')
+    history.push('/loginpage')
    }
    const tableredirect = () => {
-    history.push('/tables')
+    history.push('/loginpage')
    }
    const orgredirect = () => {
-    history.push('/organizers')
+    history.push('/loginpage')
    }
    const cartredirect = () => {
        history.push('/yourCart')

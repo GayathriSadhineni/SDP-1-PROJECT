@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../Navbar/Navbar';
+import Navbar from '../Navbar2/Navbar2';
 import '../cards/Card.css';
 import { ShoppingCart } from "@material-ui/icons";
 const Organizers = () => {
