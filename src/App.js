@@ -3,6 +3,12 @@ import Home2 from "./components/Home/Home2";
 import Home from "./components/Home/Home";
 import Cart from "./components/Cart/Cart";
 import Footer from "./components/Footer/Footer";
+import Sofa from "./components/Categories/Sofa";
+import Beds from "./components/Categories/Beds";
+import Chairs from "./components/Categories/Chairs";
+import Tables from "./components/Categories/Tables";
+import Organizers from "./components/Categories/Organizers";
+
 import "./App.css";
 import Loginpage from "./components/pages/Loginpage";
 import signuppage from  "./components/pages/Sighnuppage";
@@ -21,6 +27,12 @@ const App = () => {
             <Route path='/sign-up' exact component= {signuppage}/>
             <Route path='/login'><Loginpage/></Route>
             <Route path='/yourCart' exact component={Cart}></Route>
+            <Route path='/sofa-and-armchair' exact component={Sofa}></Route>
+            <Route path='/beds' exact component={Beds}></Route>
+            <Route path='/chairs' exact component={Chairs}></Route>
+            <Route path='/tables' exact component={Tables}></Route>
+            <Route path='/organizers' exact component={Organizers}></Route>
+
           </Switch>
         </div>
         <Footer />

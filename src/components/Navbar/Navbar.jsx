@@ -9,8 +9,20 @@ import { useModal } from 'react-hooks-use-modal';
 const Navbar = () => {
    const history = useHistory()
 
-   const loginredirect = () => {
-       history.push('/loginpage')
+   const sofaredirect = () => {
+       history.push('/sofa-and-armchair')
+   }
+   const bedredirect = () => {
+    history.push('/beds')
+   }
+   const chairredirect = () => {
+    history.push('/chairs')
+   }
+   const tableredirect = () => {
+    history.push('/tables')
+   }
+   const orgredirect = () => {
+    history.push('/organizers')
    }
    const cartredirect = () => {
        history.push('/yourCart')
@@ -49,16 +61,14 @@ const Navbar = () => {
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Top Offers
+                                    Top Categories
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">offer1</a></li>
-                                    <li><a class="dropdown-item" href="#">offer2</a></li>
-                                    <li><a class="dropdown-item" href="#">offer3</a></li>
-                                    <li><a class="dropdown-item" href="#">offer4</a></li>
-                                    <li><a class="dropdown-item" href="#">offer5</a></li>
-                                    <li><hr class="dropdown-divider" /></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a class="dropdown-item" onClick={sofaredirect}>Sofas & Armchairs</a></li>
+                                    <li><a class="dropdown-item" onClick={bedredirect}>Beds</a></li>
+                                    <li><a class="dropdown-item" onClick={chairredirect}>Chairs</a></li>
+                                    <li><a class="dropdown-item" onClick={tableredirect}>Tables</a></li>
+                                    <li><a class="dropdown-item" onClick={orgredirect}>Small Storage & Organizers</a></li>                                 
                                 </ul>
                             </li>
                             <li>
