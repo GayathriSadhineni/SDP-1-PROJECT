@@ -15,46 +15,49 @@ function Card2() {
       <div className="row">
         <div id="wrapper" className="column">
           <Prod
-            title="LINNEBACK"
-            information=" Easy Chair. The cover has a lightfastness level of 5 (the ability to resist colour fading) on a scale of 1 to 8. According to industry standards, a lightfastness level of 4 or higher is suitable for home use. "
-            price="MRP Rs.100 per month"
+            title="FIXA"
+            information="Helps you to collect and organise all the cables around your computer, stereo and TV.
+            Can be stacked with other boxes in the FIXA series."
+            price="MRP Rs.20 per month"
             buy="Rent Now"
-            path="https://www.ikea.com/in/en/images/products/linnebaeck-easy-chair-orrsta-light-grey__0936412_pe793245_s5.jpg?f=xxs"
-            width="55 cm (21 5/8')"
-            depth="69.5 cm (27 3/8')"
-            height="72.4 cm (28 1/2')"
-            weight="6.50 kg (229 oz)"
-            material="Stainless steel + leather"
+            path="https://www.ikea.com/in/en/images/products/fixa-114-piece-cable-management-set__0912063_pe617571_s5.jpg?f=xl"
+            width="20 cm"
+            depth="10 cm"
+            height="15 cm"
+            weight="100 gms"
+            material="Plastic"
             owners="1"
           />
         </div>
         <div id="wrapper" className="column">
           <Prod
-            title="FRIHETEN"
-            information="3-seat sofa-bed, Hyllie dark grey.    You can quickly transform this sofa into a spacious bed. And the generous storage space for bed linens under the seat makes things even easier."
-            price="MRP Rs.500 per month"
+            title="VARDÖ"
+            information="Turns the space under your bed into a smart place for storing.
+            Keep your belongings dust-free; just fasten the fabric lid with the poppers.
+            The storage box is easy to roll out and in thanks to the castors on the base."
+            price="MRP Rs.65 per month"
             buy="Rent Now"
-            path="https://www.ikea.com/in/en/images/products/friheten-3-seat-sofa-bed-hyllie-dark-grey__0690265_pe723191_s5.jpg?f=s"
-            width="225 cm (88 5/8 ')"
-            depth="105 cm (41 3/8 ')"
-            height="83 cm (32 5/8 ')"
-            weight="60 kg (229 oz)"
-            material="Fabric"
+            path="https://www.ikea.com/in/en/images/products/vardoe-bed-storage-box-black__0861201_pe555089_s5.jpg?f=s"
+            width="65 cm"
+            depth="70 cm"
+            height="18 cm"
+            weight="5 kgs"
+            material="Teak Wood"
             owners="2"
           />
         </div>
         <div id="wrapper" className="column">
           <Prod
-            title="HUAGA"
-            information="With storage boxes under an upholstered bed frame, you get both a soft bed and generous storage. The grey two-toned fabric, rounded headboard and piping create a classic look to enjoy for many years."
-            price="MRP Rs.400 per month"
+            title="GREJIG"
+            information="Just as practical for everyday shoes in the hallway as for fancy shoes in the wardrobe. And since the rack is foldable, you can have some extra racks in the hallway closet that you can unfold and stack when you have guests."
+            price="MRP Rs.30 per month"
             buy="Rent Now"
-            path="https://www.ikea.com/in/en/images/products/hauga-upholstered-bed-2-storage-boxes-vissle-grey__0945812_pe797796_s5.jpg?f=xl"
-            width="55 1/8'"
-            depth="77 3/4'"
-            height="83 cm (32 5/8 ')"
-            weight="60 kg (229 oz)"
-            material="Steel, Epoxy/polyester powder coating"
+            path="https://www.ikea.com/in/en/images/products/grejig-shoe-rack__0909355_pe696009_s5.jpg?f=s"
+            width="55 cm"
+            depth="28 cm"
+            height="17 cm"
+            weight="1 kg"
+            material="Steel-Stainless"
             owners="1"
           />
         </div>

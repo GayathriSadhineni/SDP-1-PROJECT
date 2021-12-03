@@ -30,46 +30,49 @@ function Card2() {
         </div>
         <div id="wrapper" className="column">
           <Prod
-            title="FRIHETEN"
-            information="3-seat sofa-bed, Hyllie dark grey.    You can quickly transform this sofa into a spacious bed. And the generous storage space for bed linens under the seat makes things even easier."
-            price="MRP Rs.500 per month"
+            title="RENBERGET"
+            information="This desk chair has adjustable tilt tension that allows you to adjust the resistance to suit your movements and weight.
+            You sit comfortably since the chair is adjustable in height."
+            price="MRP Rs.50 per month"
             buy="Rent Now"
-            path="https://www.ikea.com/in/en/images/products/friheten-3-seat-sofa-bed-hyllie-dark-grey__0690265_pe723191_s5.jpg?f=s"
-            width="225 cm (88 5/8 ')"
-            depth="105 cm (41 3/8 ')"
-            height="83 cm (32 5/8 ')"
-            weight="60 kg (229 oz)"
-            material="Fabric"
-            owners="2"
-          />
-        </div>
-        <div id="wrapper" className="column">
-          <Prod
-            title="HUAGA"
-            information="With storage boxes under an upholstered bed frame, you get both a soft bed and generous storage. The grey two-toned fabric, rounded headboard and piping create a classic look to enjoy for many years."
-            price="MRP Rs.400 per month"
-            buy="Rent Now"
-            path="https://www.ikea.com/in/en/images/products/hauga-upholstered-bed-2-storage-boxes-vissle-grey__0945812_pe797796_s5.jpg?f=xl"
-            width="55 1/8'"
-            depth="77 3/4'"
-            height="83 cm (32 5/8 ')"
-            weight="60 kg (229 oz)"
-            material="Steel, Epoxy/polyester powder coating"
+            path="https://www.ikea.com/in/en/images/products/renberget-swivel-chair-bomstad-black__0456923_pe604449_s5.jpg?f=s"
+            width="59 cm"
+            depth="65 cm"
+            height="108 cm"
+            weight="7 kg"
+            material="Leather-steel"
             owners="1"
           />
         </div>
         <div id="wrapper" className="column">
           <Prod
-            title="KUGGIS"
-            information="This smaller box helps you keep your little things organised. Timeless design in PET plastic with soft shapes – and part of the KUGGIS series where all sizes are dimensioned to each other."
-            price="MRP Rs.50 per month"
+            title="ODGER"
+            information="Comfortable seating position, thanks to the swivel and adjustable height.
+            No tools are required to assemble the chair, you just click it together with a simple mechanism under the seat."
+            price="MRP Rs.60 per month"
             buy="Rent Now"
-            path="https://www.ikea.com/in/en/images/products/kuggis-box-with-lid-white__0815392_pe772901_s5.jpg?f=xl"
-            width="18 cm (7 ')"
-            depth="26 cm (10 ¼ ')"
-            height="8 cm (3 ¼ ')"
-            weight="0.31 kg (11 oz)"
+            path="https://www.ikea.com/in/en/images/products/odger-swivel-chair-white-beige__0985503_ph173302_s5.jpg?f=s"
+            width="68 cm"
+            depth="68 cm"
+            height="90 cm"
+            weight="5 kg"
             material="PVC"
+            owners="1"
+          />
+        </div>
+        <div id="wrapper" className="column">
+          <Prod
+            title="JANINGE"
+            information="You can stack the chairs, so they take less space when you're not using them.
+            You can start using the chair immediately because it is ready assembled."
+            price="MRP Rs.60 per month"
+            buy="Rent Now"
+            path="https://www.ikea.com/in/en/images/products/janinge-chair-yellow__0370833_pe551332_s5.jpg?f=s"
+            width="50 cm"
+            depth="46 cm"
+            height="76 cm"
+            weight="3.5 kg"
+            material="Teak Wood"
             owners="1"
           />
         </div>

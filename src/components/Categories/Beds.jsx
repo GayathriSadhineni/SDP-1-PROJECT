@@ -33,9 +33,7 @@ function Card2() {
             title="TUFFING"
             information="A good solution where space is limited.
             The bed is lower than standard beds so that parents can see their child
-            The bed is lower, which makes it easier to make the bed.
-            It’s easier to get in and out of the bed with a centered ladder.
-            Bed base included."
+            The bed is lower, which makes it easier to make the bed."
             price="MRP Rs.75 per month"
             buy="Rent Now"
             path="https://www.ikea.com/in/en/images/products/tuffing-bunk-bed-frame-dark-grey__0638044_pe698660_s5.jpg?f=s"
@@ -50,7 +48,7 @@ function Card2() {
         <div id="wrapper" className="column">
           <Prod
             title="HUAGA"
-            information="With storage boxes under an upholstered bed frame, you get both a soft bed and generous storage. The grey two-toned fabric, rounded headboard and piping create a classic look to enjoy for many years."
+            information="With storage boxes under an upholstered bed frame, you get both a soft bed and generous storage. The grey two-toned fabric, a classic look to enjoy for many years."
             price="MRP Rs.400 per month"
             buy="Rent Now"
             path="https://www.ikea.com/in/en/images/products/hauga-upholstered-bed-2-storage-boxes-vissle-grey__0945812_pe797796_s5.jpg?f=xl"

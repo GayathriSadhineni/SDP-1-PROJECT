@@ -15,61 +15,64 @@ function Card2() {
       <div className="row">
         <div id="wrapper" className="column">
           <Prod
-            title="LINNEBACK"
-            information=" Easy Chair. The cover has a lightfastness level of 5 (the ability to resist colour fading) on a scale of 1 to 8. According to industry standards, a lightfastness level of 4 or higher is suitable for home use. "
-            price="MRP Rs.100 per month"
+            title="ALEX"
+            information="Built-in cable management for collecting cables and cords; out of sight but close at hand.
+            Drawer stops prevent the drawers from being pulled out too far."
+            price="MRP Rs.25 per month"
             buy="Rent Now"
-            path="https://www.ikea.com/in/en/images/products/linnebaeck-easy-chair-orrsta-light-grey__0936412_pe793245_s5.jpg?f=xxs"
-            width="55 cm (21 5/8')"
-            depth="69.5 cm (27 3/8')"
-            height="72.4 cm (28 1/2')"
+            path="https://www.ikea.com/in/en/images/products/alex-desk-grey-turquoise__1043711_ph177987_s5.jpg?f=s"
+            width="132 cm"
+            depth="58 cm"
+            height="76 cm"
             weight="6.50 kg (229 oz)"
-            material="Stainless steel + leather"
+            material="Oak Wood"
             owners="1"
           />
         </div>
         <div id="wrapper" className="column">
           <Prod
-            title="FRIHETEN"
-            information="3-seat sofa-bed, Hyllie dark grey.    You can quickly transform this sofa into a spacious bed. And the generous storage space for bed linens under the seat makes things even easier."
-            price="MRP Rs.500 per month"
+            title="LAGKAPTEN"
+            information="The table top is made of board-on-frame, a strong and lightweight material.
+            Pre-drilled holes in the table top make it easier to attach the legs."
+            price="MRP Rs.50 per month"
             buy="Rent Now"
-            path="https://www.ikea.com/in/en/images/products/friheten-3-seat-sofa-bed-hyllie-dark-grey__0690265_pe723191_s5.jpg?f=s"
-            width="225 cm (88 5/8 ')"
-            depth="105 cm (41 3/8 ')"
-            height="83 cm (32 5/8 ')"
-            weight="60 kg (229 oz)"
-            material="Fabric"
+            path="https://www.ikea.com/in/en/images/products/lagkapten-alex-desk-black-brown__1022390_pe832701_s5.jpg?f=s"
+            width="60 cm"
+            depth="73 cm"
+            height="140 cm"
+            weight="8 kg"
+            material="Oak Wood"
             owners="2"
           />
         </div>
         <div id="wrapper" className="column">
           <Prod
-            title="HUAGA"
-            information="With storage boxes under an upholstered bed frame, you get both a soft bed and generous storage. The grey two-toned fabric, rounded headboard and piping create a classic look to enjoy for many years."
-            price="MRP Rs.400 per month"
+            title="MALM"
+            information="You can collect cables and extension leads on the shelf under the table top, so they’re hidden but still close at hand.
+            Can be placed in the middle of a room because the back is finished."
+            price="MRP Rs.40 per month"
             buy="Rent Now"
-            path="https://www.ikea.com/in/en/images/products/hauga-upholstered-bed-2-storage-boxes-vissle-grey__0945812_pe797796_s5.jpg?f=xl"
-            width="55 1/8'"
-            depth="77 3/4'"
-            height="83 cm (32 5/8 ')"
-            weight="60 kg (229 oz)"
-            material="Steel, Epoxy/polyester powder coating"
+            path="https://www.ikea.com/in/en/images/products/malm-desk-white__0657143_pe709628_s5.jpg?f=s"
+            width="140 cm"
+            depth="65 cm"
+            height="73 cm"
+            weight="13 kg"
+            material="Teak Wood"
             owners="1"
           />
         </div>
         <div id="wrapper" className="column">
           <Prod
-            title="KUGGIS"
-            information="This smaller box helps you keep your little things organised. Timeless design in PET plastic with soft shapes – and part of the KUGGIS series where all sizes are dimensioned to each other."
+            title="PÅHL"
+            information="With the add-on unit, PÅHL desk grows – in height. You get a spacious shelf at arm’s length and at the top there are practical compartments for small items, a mobile phone or pens."
             price="MRP Rs.50 per month"
             buy="Rent Now"
-            path="https://www.ikea.com/in/en/images/products/kuggis-box-with-lid-white__0815392_pe772901_s5.jpg?f=xl"
-            width="18 cm (7 ')"
-            depth="26 cm (10 ¼ ')"
-            height="8 cm (3 ¼ ')"
-            weight="0.31 kg (11 oz)"
-            material="PVC"
+            path="https://www.ikea.com/in/en/images/products/pahl-desk-with-add-on-unit-white-green__0879286_pe646905_s5.jpg?f=s"
+            width="128 cm"
+            depth="58 cm"
+            height="98 cm"
+            weight="7 cm"
+            material="Teak Wood"
             owners="1"
           />
         </div>
