@@ -1,7 +1,7 @@
 import React from "react";
 import Home2 from "./components/Home/Home2";
 import Home from "./components/Home/Home";
-
+import Cart from "./components/Cart/Cart";
 import Footer from "./components/Footer/Footer";
 import "./App.css";
 import Loginpage from "./components/pages/Loginpage";
@@ -19,9 +19,8 @@ const App = () => {
             <Route path="/user" exact component={Home2}></Route>
             <Route path="/loginpage" exact component={Loginpage}></Route>
             <Route path='/sign-up' exact component= {signuppage}/>
-            <Route path='/login'>
-            <Loginpage/>
-          </Route>
+            <Route path='/login'><Loginpage/></Route>
+            <Route path='/yourCart' exact component={Cart}></Route>
           </Switch>
         </div>
         <Footer />

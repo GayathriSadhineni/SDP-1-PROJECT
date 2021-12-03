@@ -1,7 +1,6 @@
 import React,{useState, useCallback} from 'react';
 import {IconButton, Badge} from '@material-ui/core';
 import './Navbar.css';
-import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import CallIcon from '@material-ui/icons/Call';
 import { ShoppingCart } from '@material-ui/icons';
 import {useHistory,Link} from 'react-router-dom'
@@ -14,7 +13,7 @@ const Navbar = () => {
        history.push('/loginpage')
    }
    const cartredirect = () => {
-       history.push('/yourcart')
+       history.push('/yourCart')
    }
    const [Modal, open] = useModal('root', {
     preventScroll: true,
