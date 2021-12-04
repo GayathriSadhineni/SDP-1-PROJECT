@@ -8,6 +8,14 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded());
 app.use(cors());
+var http = require("http");
+http
+.createServer(function (request, response) {
+response.writeHead(200, { "Content-type": "text/plain" });
+response.end("Hello World!");
+})
+.listen(2024);
+console.log("Server running at localhost:3000");
 
 mongoose.connect(
   "mongodb://localhost:27017/myLoginRegisterDB",
@@ -48,7 +56,7 @@ app.post("/login", (req, res) => {
 
 app.post("/register", (req, res) => {
 
-  const { name, email, password } = req.body;
+  const { name, email, password, } = req.body;
   User.findOne({ email: email }, (err, user) => {
     
    if (user) {
