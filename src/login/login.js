@@ -24,7 +24,9 @@ const Login = ({ setLoginUser }) => {
     axios.post("http://localhost:9002/login", user).then((res) => {
       alert(res.data.message);
       setLoginUser(res.data.user);
+      if(res.data.message === "Login Successfull"){
       history.push("/user");
+      }
     });
   };
 
@@ -51,6 +53,7 @@ const Login = ({ setLoginUser }) => {
           <div className="button" onClick={login}>
             Login
           </div>
+          
           <p>or</p>
           <div className="button" onClick={() => history.push("/sign-up")}>
             Register

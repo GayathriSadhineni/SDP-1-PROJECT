@@ -1,8 +1,10 @@
 import React from "react";
 import "./Card.css";
 import { ShoppingCart } from "@material-ui/icons";
-
+import { useHistory, Link } from "react-router-dom";
 function Card2() {
+  
+  
   return (
     <div className="row">
       <div id="wrapper" className="column">
@@ -63,6 +65,7 @@ function Card2() {
           weight="0.31 kg (11 oz)"
           material="PVC"
           owners="1"
+          link="'/something'"
         />
       </div>
     </div>
@@ -70,10 +73,11 @@ function Card2() {
 }
 
 function Prod(props) {
+  
   return (
     <div id="container">
       <div class="product-details">
-        <h1>{props.title}</h1>
+      <h1>{props.title}</h1>
         <span class="hint-star star">
           <i class="fa fa-star" aria-hidden="true"></i>
           <i class="fa fa-star" aria-hidden="true"></i>
@@ -83,17 +87,6 @@ function Prod(props) {
         </span>
 
         <p className="information">{props.information}</p>
-
-        <div className="control">
-          <button className="btn">
-            <span class="price">{props.price}</span>
-            <span class="shopping-cart">
-              <ShoppingCart />
-              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-            </span>
-            <span class="buy">{props.buy}</span>
-          </button>
-        </div>
       </div>
 
       <div class="product-image">

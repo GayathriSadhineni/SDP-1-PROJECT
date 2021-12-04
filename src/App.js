@@ -8,7 +8,7 @@ import Beds from "./components/Categories/Beds";
 import Chairs from "./components/Categories/Chairs";
 import Tables from "./components/Categories/Tables";
 import Organizers from "./components/Categories/Organizers";
-
+import Chatpage from "./components/ChatBot/Chatpage";
 import "./App.css";
 import Loginpage from "./components/pages/Loginpage";
 import signuppage from "./components/pages/Sighnuppage";
@@ -30,6 +30,8 @@ const App = () => {
             <Route path="/chairs" exact component={Chairs}></Route>
             <Route path="/tables" exact component={Tables}></Route>
             <Route path="/organizers" exact component={Organizers}></Route>
+            <Route path="/chatpage" exact component={Chatpage}></Route>
+            <Route path="/something" exact component={Beds}></Route>
           </Switch>
         </div>
         <Footer />

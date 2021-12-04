@@ -27,6 +27,9 @@ const Navbar = () => {
   const cartredirect = () => {
     history.push("/yourCart");
   };
+  const botredirect = () => {
+    history.push("/chatpage");
+  }
   const [Modal, open] = useModal("root", {
     preventScroll: true,
     closeOnOverlayClick: true,
@@ -112,6 +115,7 @@ const Navbar = () => {
                 </Badge>
               </IconButton>
             </li>
+            
             <li class="d-flex">
               <Link to="/loginpage">Login</Link>
             </li>

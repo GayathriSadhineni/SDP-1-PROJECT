@@ -94,17 +94,6 @@ function Prod(props) {
         </span>
 
         <p className="information">{props.information}</p>
-
-        <div className="control">
-          <button className="btn">
-            <span class="price">{props.price}</span>
-            <span class="shopping-cart">
-              <ShoppingCart />
-              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-            </span>
-            <span class="buy">{props.buy}</span>
-          </button>
-        </div>
       </div>
 
       <div class="product-image">

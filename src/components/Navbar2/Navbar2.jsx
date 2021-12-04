@@ -57,7 +57,7 @@ const Navbar = () => {
               <a class="nav-link active" aria-current="page" href="/user">
                 Home
               </a>
-
+              
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
@@ -113,6 +113,10 @@ const Navbar = () => {
                 </Badge>
               </IconButton>
             </li>
+            <li class="d-flex">
+              <Link to="/chatpage">Chat</Link>
+              </li>
+              
             <li class="d-flex">
               <Link to="/loginpage">Log out</Link>
             </li>
