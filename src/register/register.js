@@ -24,7 +24,7 @@ const Register = () => {
 
   const register = () => {
     const { name, email, password, reEnterPassword } = user;
-    if(name.includes("@")===false){
+    if(email.includes("@")===false){
       alert("Invalid email");
     }
     else if (name && email && password && password === reEnterPassword) {
