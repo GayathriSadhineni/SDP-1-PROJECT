@@ -56,7 +56,19 @@ const Navbar = () => {
               <a class="nav-link active" aria-current="page" href="/user">
                 Home
               </a>
-              
+              <li class="nav-item dropdown">
+                                
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Location
+                                </a>
+                                
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="/vijayawada">Vijayawada</a></li>
+                                    <li><a class="dropdown-item" href="/hyderabad">Hyderabad</a></li>
+                                    <li><a class="dropdown-item" href="/mumbai">Mumbai</a></li>
+                                    <li><a class="dropdown-item" href="/delhi">Delhi</a></li>
+                                </ul>
+                            </li>
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
@@ -105,13 +117,7 @@ const Navbar = () => {
                 </div>
               </li>
             </ul>
-            <li class="d-flex">
-              <IconButton area-label="Show cart Items" color="inherit">
-                <Badge color="secondary">
-                  <ShoppingCart onClick={cartredirect} />
-                </Badge>
-              </IconButton>
-            </li>
+            
             <li class="d-flex">
               <Link to="/chatpage">Chat</Link>
               </li>

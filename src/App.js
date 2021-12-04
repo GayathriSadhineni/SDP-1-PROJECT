@@ -9,6 +9,10 @@ import Chairs from "./components/Categories/Chairs";
 import Tables from "./components/Categories/Tables";
 import Organizers from "./components/Categories/Organizers";
 import Chatpage from "./components/ChatBot/Chatpage";
+import Vijayawada from "./components/Maps/Vijayawada";
+import Hyderabad from "./components/Maps/Hyderabad";
+import Mumbai from "./components/Maps/Mumbai";
+import Delhi from "./components/Maps/Delhi";
 import "./App.css";
 import Loginpage from "./components/pages/Loginpage";
 import signuppage from "./components/pages/Sighnuppage";
@@ -32,6 +36,10 @@ const App = () => {
             <Route path="/organizers" exact component={Organizers}></Route>
             <Route path="/chatpage" exact component={Chatpage}></Route>
             <Route path="/something" exact component={Beds}></Route>
+            <Route path="/vijayawada" exact component={Vijayawada}></Route>
+            <Route path="/hyderabad" exact component={Hyderabad}></Route>
+            <Route path="/mumbai" exact component={Mumbai}></Route>
+            <Route path="/delhi" exact component={Delhi}></Route>
           </Switch>
         </div>
         <Footer />

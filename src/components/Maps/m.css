@@ -1,0 +1,6 @@
+.framebox{
+    background-color: burlywood;
+    align-items: center;
+    object-fit:cover ;
+    text-align: center;
+}

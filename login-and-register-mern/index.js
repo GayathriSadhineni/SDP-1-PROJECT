@@ -12,7 +12,7 @@ var http = require("http");
 http
 .createServer(function (request, response) {
 response.writeHead(200, { "Content-type": "text/plain" });
-response.end("Hello World!");
+response.end("Backend running Successfully!");
 })
 .listen(2024);
 console.log("Server running at localhost:3000");

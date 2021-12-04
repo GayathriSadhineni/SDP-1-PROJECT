@@ -108,13 +108,6 @@ const Navbar = () => {
                 </div>
               </li>
             </ul>
-            <li class="d-flex">
-              <IconButton area-label="Show cart Items" color="inherit">
-                <Badge color="secondary">
-                  <ShoppingCart onClick={cartredirect} />
-                </Badge>
-              </IconButton>
-            </li>
             
             <li class="d-flex">
               <Link to="/loginpage">Login</Link>
