@@ -38,11 +38,11 @@ const User = new mongoose.model("User", userSchema);
 
 //Routes
 app.post("/login", (req, res) => {
-  const { email, password } = req.body;
+  const { email, password } = req.body
   User.findOne({ email: email }, (err, user) => {
     if (user) {
       if (password === user.password) {
-        res.send({ message: "Login Successfull", user: user });
+        res.send({ message: "Login Successful", user: user });
       } else if(password === "") {
         res.send({ message: "Must Enter password" });
       } else {
