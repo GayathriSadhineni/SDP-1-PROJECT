@@ -60,7 +60,7 @@ app.post("/register", (req, res) => {
   User.findOne({ email: email }, (err, user) => {
     
    if (user) {
-      res.send({ message: "User already registerd" });
+      res.send({ message: "User already registered" });
     }
     else {
       const user = new User({
@@ -72,7 +72,7 @@ app.post("/register", (req, res) => {
         if (err) {
           res.send(err);
         } else {
-          res.send({ message: "Successfully Registered, Please login now." });
+          res.send({ message: "Registered Successfully" });
         }
       });
     }

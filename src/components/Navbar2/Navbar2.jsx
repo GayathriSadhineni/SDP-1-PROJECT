@@ -2,7 +2,6 @@ import React, { useState, useCallback } from "react";
 import { IconButton, Badge } from "@material-ui/core";
 import "./Navbar2.css";
 import CallIcon from "@material-ui/icons/Call";
-import { ShoppingCart } from "@material-ui/icons";
 import { useHistory, Link } from "react-router-dom";
 import { ReactSearchAutocomplete } from "react-search-autocomplete";
 import { useModal } from "react-hooks-use-modal";
@@ -23,9 +22,6 @@ const Navbar = () => {
   };
   const orgredirect = () => {
     history.push("/organizers");
-  };
-  const cartredirect = () => {
-    history.push("/yourCart");
   };
   const [Modal, open] = useModal("root", {
     preventScroll: true,
@@ -66,7 +62,7 @@ const Navbar = () => {
                                     <li><a class="dropdown-item" href="/vijayawada">Vijayawada</a></li>
                                     <li><a class="dropdown-item" href="/hyderabad">Hyderabad</a></li>
                                     <li><a class="dropdown-item" href="/mumbai">Mumbai</a></li>
-                                    <li><a class="dropdown-item" href="/delhi">Delhi</a></li>
+                                    <li><a class="dropdown-item" href="/chennai">Chennai</a></li>
                                 </ul>
                             </li>
               <li class="nav-item dropdown">

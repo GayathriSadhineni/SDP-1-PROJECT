@@ -24,7 +24,7 @@ const Login = ({ setLoginUser }) => {
     axios.post("http://localhost:9002/login", user).then((res) => {
       alert(res.data.message);
       setLoginUser(res.data.user);
-      if(res.data.message === "Login Successfull"){
+      if(res.data.message === "Login Successful"){
       history.push("/user");
       }
     });
@@ -35,7 +35,7 @@ const Login = ({ setLoginUser }) => {
       <img className="backgroundimage" src={loginbackground} />
       <div>
         <div className="login1">
-          <h1>Hey how are you!</h1>
+          <h1>Welcome to Rentify WebApp</h1>
           <input
             type="text"
             name="email"

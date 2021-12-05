@@ -24,7 +24,7 @@ const Register = () => {
 
   const register = () => {
     const { name, email, password, reEnterPassword } = user;
-    if(email.includes("@")===false){
+    if(email.includes("@"&&".")===false){
       alert("Invalid email");
     }
     else if (name && email && password && password === reEnterPassword) {
@@ -43,7 +43,7 @@ const Register = () => {
       <div>
         <div className="register1">
           {console.log("User", user)}
-          <h1>Hey nice to meet You!</h1>
+          <h1>Looking Forward to serve you</h1>
           <input
             type="text"
             name="name"

@@ -12,7 +12,7 @@ import Chatpage from "./components/ChatBot/Chatpage";
 import Vijayawada from "./components/Maps/Vijayawada";
 import Hyderabad from "./components/Maps/Hyderabad";
 import Mumbai from "./components/Maps/Mumbai";
-import Delhi from "./components/Maps/Delhi";
+import Chennai from "./components/Maps/Chennai";
 import "./App.css";
 import Loginpage from "./components/pages/Loginpage";
 import signuppage from "./components/pages/Sighnuppage";
@@ -39,7 +39,7 @@ const App = () => {
             <Route path="/vijayawada" exact component={Vijayawada}></Route>
             <Route path="/hyderabad" exact component={Hyderabad}></Route>
             <Route path="/mumbai" exact component={Mumbai}></Route>
-            <Route path="/delhi" exact component={Delhi}></Route>
+            <Route path="/chennai" exact component={Chennai}></Route>
           </Switch>
         </div>
         <Footer />
