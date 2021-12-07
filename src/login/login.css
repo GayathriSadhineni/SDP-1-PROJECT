@@ -20,7 +20,7 @@
 }
 .login1 {
   width: 400px;
-  background: rgba(107, 70, 27, 0.5);
+  background: rgba(238, 124, 89, 0.5);
   box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
   border-radius: 8px;
   padding: 1rem;
@@ -49,8 +49,8 @@
 }
 
 .login1 > .button {
-  background: #ff9b4a;
-  border: 1px solid #ff9b4a;
+  background: #eed600;
+  border: 1px solid #eed600;
   color: #fff;
   font-size: 1.25rem;
   padding: 0.5rem;
@@ -58,4 +58,7 @@
   border-radius: 15px;
   outline: none;
   cursor: pointer;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
 }

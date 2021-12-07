@@ -27,6 +27,10 @@ const Register = () => {
     if(email.includes("@"&&".")===false){
       alert("Invalid email");
     }
+    
+    if(password.length<8){
+      alert("**Password length must be atleast 8 characters");
+    }
     else if (name && email && password && password === reEnterPassword) {
       axios.post("http://localhost:9002/register", user).then((res) => {
         alert(res.data.message);
